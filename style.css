@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 22px;
+}
+
+body {
+    color: seashell;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.logo {
+    margin: 10px;
+    color: seashell;
+}
+
+.navigation,
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+    list-style: none;
+}
+
+a {
+    color: seashell;
+}
+
+nav {
+    border-bottom: 1px solid seashell;
+    padding: 0 10px;
+}
+
+.bg-container {
+    height: 700px;
+    width: 90%;
+    background-image: url(images/img-mission-background.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.mission {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.mission>h2 {
+    margin-bottom: 10px;
+}
+
+.month {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.location-bg {
+    height: 500px;
+    width: 90%;
+    background-image: url(images/img-locations-background.jpg);
+    background-size: cover;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.location {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    opacity: 1;
+}
+
+.downtown {
+    background-color: black;
+    text-align: center;
+    margin-top: 200px;
+    padding-top: 20px;
+    width: 300px;
+}
+
+.east {
+    background-color: black;
+    text-align: center;
+    margin-top: 200px;
+    width: 300px;
+    padding-top: 20px;
+}
+
+.oakdale {
+    background-color: black;
+    text-align: center;
+    margin-top: 200px;
+    width: 300px;
+    padding-top: 20px;
+}
+
+.pg-end {
+    text-align: center;
+}
+
+.tea {
+    margin-top: 30px;
+}
+
+.contact {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.no {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.footer {
+    margin-left: 20px;
+    text-align: left;
+}
+
+#footer {
+    font-size: 15px;
+}
